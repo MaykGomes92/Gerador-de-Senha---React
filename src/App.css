@@ -63,6 +63,7 @@ main section:first-child input{
     border-radius: 10px 0px 0px 10px;
     color: white;
     width: 400px;
+    font-size: 2rem;
 }
 
 .section2 input::placeholder{

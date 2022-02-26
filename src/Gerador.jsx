@@ -27,6 +27,11 @@ const Gerador = () => {
       if(input === 0){
         alert('Por favor, digite a quantidade de caracteres para sua senha!')
       }
+
+      if(input > 25) {
+        alert('Por favor, escolha um máximo de 24 caracteres.')
+        return
+      }
       
       if(!check1 && !check2 && !check3){
         alert('Por favor, selecione pelo menos 1 opção para sua senha!')
