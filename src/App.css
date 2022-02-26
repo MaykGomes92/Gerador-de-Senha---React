@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(252, 252, 252);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    background-color: rgba(146, 113, 223, 0.815);
+}
+
+header h1{
+    color: rgb(255, 255, 255);
+    letter-spacing: 3px;
+    font-size: 3rem;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+main div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
+    margin-bottom: 5px;
+}
+
+main section span{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2rem;
+    margin-left: 10px;
+}
+
+main section:first-child input{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.section2 {
+    display: flex;
+    margin-top: 20px;
+} 
+
+.section2 input{
+    padding: 30px;
+    border: none;
+    outline: none;
+    background-color: lightblue;
+    border-radius: 10px 0px 0px 10px;
+    color: white;
+    width: 400px;
+}
+
+.section2 input::placeholder{
+    color: white;
+    font-size: 1.3rem;
+}
+
+.section2 button{
+    padding: 30px 20px;
+    font-size: 1.3rem;
+    outline: none;
+    border: none;
+    background-color: rgba(146, 113, 223, 0.815);
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.section2 button:hover{
+    background-color: rgba(106, 64, 206, 0.815);
+
+}
+
+#resultado{
+    margin-top: 50px;
+    letter-spacing: 4px;
+    width: 500px;
+    text-align: center;
+    color: white;
+    padding: 40px 0;
+    border-radius: 20px;
+    background-color: rgba(106, 64, 206, 0.815);
+    opacity: 1;
+    animation: saida 0.5s;
+}
+
+@keyframes saida{
+    from{
+        opacity: 0;
+    }
+}
+
+/* ================= RESPONSIVIDADE ====================== */
+
+@media (max-width: 510px){
+    header{
+        height: 250px;
+    }
+    header h1{
+        font-size: 2rem;
+    }
+
+    .section2 input{
+        width: 250px;
+        padding: 10px 20px;
+    }
+    
+    .section2 input::placeholder{
+        font-size: 0.7rem;
+    }
+    
+    .section2 button{
+        padding: 10px 20px;
+    }
+
+
+    
+    #resultado{
+        font-size: 1rem;
+        width: 300px;
+        padding: 30px 10px;
+    }
+}
