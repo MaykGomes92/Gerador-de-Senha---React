@@ -61,12 +61,12 @@ const Gerador = () => {
 
     <section>
     <div>
-    <span>Letra maiúsculas: </span>
+    <span>Letras maiúsculas: </span>
     <input type='checkbox' onChange={(e) => setCheck1(!check1)}/>
     </div>
 
     <div>
-    <span>Letra minúsculas: </span>
+    <span>Letras minúsculas: </span>
     <input type='checkbox' onChange={(e) => setCheck2(!check2)}/>
     </div>   
 
