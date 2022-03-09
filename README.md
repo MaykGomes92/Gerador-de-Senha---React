@@ -1,5 +1,7 @@
 # Sobre o projeto
 
+<a href="https://www.linkedin.com/in/mayk-gomes-11b86222b/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/><a/>
+  
 * Um gerador de senha, com 3 opções personalizadas para você escolher
 * Feito em React, projeto está responsivo e você pode testa-lo logo abaixo.
 ##
