@@ -13,7 +13,7 @@
 
 ## Sobre o Projeto
 * Um gerador de senha, com 3 opções personalizadas para você escolher
-* Feito em React, projeto está responsivo e você pode testa-lo logo abaixo.
+* Feito em React, projeto está responsivo e online pode testa-lo no link acima.
 
 ![image](https://user-images.githubusercontent.com/77819811/155849045-779fad3a-dd72-4794-931f-1d3086fe6c64.png)
 
