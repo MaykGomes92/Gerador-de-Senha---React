@@ -122,7 +122,7 @@ main section:first-child input{
     }
     
     .section2 input::placeholder{
-        font-size: 0.7rem;
+        font-size: 1.7rem;
     }
     
     .section2 button{
