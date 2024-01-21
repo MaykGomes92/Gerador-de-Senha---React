@@ -68,7 +68,7 @@ main section:first-child input{
 
 .section2 input::placeholder{
     color: white;
-    font-size: 2.3rem;
+    font-size: 1.3rem;
 }
 
 .section2 button{
@@ -122,7 +122,7 @@ main section:first-child input{
     }
     
     .section2 input::placeholder{
-        font-size: 1.7rem;
+        font-size: 1.1rem;
     }
     
     .section2 button{
